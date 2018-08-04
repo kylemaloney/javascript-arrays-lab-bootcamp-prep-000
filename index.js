@@ -10,6 +10,6 @@ function destructivelyPrependKitten(name){
 }
 
 function destructivelyRemoveLastKitten(){
-  kittens.slice(0, kittens.length-1);
+  kittens = kittens.slice(0, kittens.length-1);
   return kittens;
 }
